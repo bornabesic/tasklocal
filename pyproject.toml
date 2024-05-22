@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tasklocal"
+description = "Task-local storage for Python"
+dynamic = ["version"]
+authors = [
+    { name = "Borna Bešić", email = "borna@bornabesic.com" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/bornabesic/tasklocal.git"
+Issues = "https://github.com/bornabesic/tasklocal/issues"
